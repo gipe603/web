@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>CV - Daniel Giménez</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: url('artificial-intelligence.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: white;
+    }
+
+    .container {
+      background-color: rgba(0, 0, 0, 0.75);
+      max-width: 800px;
+      margin: 50px auto;
+      padding: 30px;
+      border-radius: 15px;
+    }
+
+    h1, h2 {
+      color: #00ffff;
+      border-bottom: 1px solid #00ffff;
+      padding-bottom: 5px;
+    }
+
+    .section {
+      margin-bottom: 25px;
+    }
+
+    a {
+      color: #00ffff;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    .contact-info {
+      font-size: 0.95em;
+      margin-top: 10px;
+    }
+
+    .imagen-circular {
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid white;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>Daniel Giménez</h1>
+
+    <div class="text-center mb-4">
+      <img src="retocada.jpg" alt="Foto de perfil" class="imagen-circular">
+      <p>Certificado de discapacidad del 34%</p>
+    </div>
+
+    <h2>Contacto</h2>
+    <p class="contact-info">
+      📧 daniel_gipe@hotmail.com
+    </p>
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      </div>
+
+      <div class="carousel-inner">
+
+        <!-- Perfil profesional -->
+        <div class="carousel-item active">
+          <img src="retocada.jpg" class="d-block w-100" alt="Perfil profesional" style="width: 300px; height: 400px;" " opacity: 0.3;" >
+          <div class="carousel-caption d-none d-md-block">
+            <p>✓ Técnico en Sistemas Microinformáticos y Redes con más de 10 años de experiencia en reparación de hardware, software y soporte técnico.</p>
+            <p>✓ Especializado en optimización de sistemas y atención al cliente, con conocimientos en AWS (Amazon Web Services), Windows y herramientas de diagnóstico.</p>
+            <p>✓ Buscando un puesto en TI para aprovechar mi experiencia y mejorar la eficiencia operativa.</p>
+          </div>
+        </div>
+
+        <!-- Experiencia laboral -->
+        <div class="carousel-item">
+          <img src="experiencia laboral.jpg" class="d-block w-100" alt="Experiencia laboral" style="opacity: 0.3;">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Experiencia Laboral</h5>
+            <p>Técnico reparador de equipos microinformáticos y redes (Freelance, +10 años)</p>
+            <p>✓ Diagnostiqué y reparé más de 500 dispositivos incluyendo ordenadores, móviles, tablets y televisores.</p>
+            <p>✓ Implementé soluciones de optimización de software, reduciendo los tiempos de carga en un 60% y logrando una tasa de éxito del 98%.</p>
+            <p>✓ Brindé soporte técnico con una tasa de satisfacción del 95% según encuestas postventa.</p>
+          </div>
+        </div>
+
+        <!-- Habilidades -->
+        <div class="carousel-item">
+          <img src="habilidades.jpg" class="d-block w-100" alt="Habilidades técnicas" style="opacity: 0.3;">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Habilidades Técnicas</h5>
+            <p>Herramientas de Windows, arquitectura de ordenadores, microinformática, periféricos, colaboración online, reparación de móviles/tablets y habilidades comunicativas.</p>
+          </div>
+        </div>
+
+        <!-- Estudios -->
+        <div class="carousel-item">
+          <img src="estudios.jpg" class="d-block w-100" alt="Estudios" style="opacity: 0.3;">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Formación Académica</h5>
+            <p>Técnico en Sistemas Microinformáticos y Redes – Instituto XYZ</p>
+          </div>
+        </div>
+
+      </div>
+
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Siguiente</span>
+      </button>
+    </div>
+  </div>
+
+</body>
+</html>
